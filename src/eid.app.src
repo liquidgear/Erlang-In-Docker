@@ -1,0 +1,7 @@
+{application, eid, [
+  {description, "Docker port-mapper implementation"},
+  {vsn, git},
+  {registered, []},
+  {applications, []},
+  {modules, [dpmd, eid_tcp_dist, mochijson2]}
+]}.
